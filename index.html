@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + TS</title>
+  </head>
+  <body>
+    <style>
+      #starfield{
+        position:absolute;
+        top:0;
+        left:0;
+        right:0;
+        bottom:0;
+      }
+      .container_title{
+        position: absolute;
+        top:0;
+        left: 0;
+        color:rgb(255, 255, 255);
+        width:100%;
+        height:100%;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+
+    </style>
+    <div class="container">
+      <div id="starfield" class="absolute inset-0">
+        <canvas id="starfield-canvas"></canvas>
+        <div class="container_title">
+          <h1>
+            Brayan David Lezama Trejo
+          </h1>
+        </div>
+      </div>
+      </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
